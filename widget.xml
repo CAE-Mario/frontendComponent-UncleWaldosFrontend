@@ -95,19 +95,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <span id='span_4d6a7'  style="position: absolute; left: 30px; top: 230px; width: 330px; height: 60px; ">How many feathers has uncle waldo left on his tail?</span>
 
    
-<label id=''  style="position: absolute; left: 34px; top: 340px;  "><input  name="choice_var"  type="radio" id="radio_e9f9d"   >3</label>
+<label id=''  style="position: absolute; left: 34px; top: 340px;  "><input  name="choice_var"  type="radio" id="radio_3"   >3</label>
 
    
 <iframe id='iframe_0c5a1' src="https://www.youtube.com/embed/rnj6cnlIjM4"   style="position: absolute; left: 10px; top: 10px; width: 480px; height: 197px; "> </iframe>
 
    
-<label id=''  style="position: absolute; left: 166px; top: 290px;  "><input  name="choice_var"  type="radio" id="radio_f0274"   >2</label>
+<label id=''  style="position: absolute; left: 166px; top: 290px;  "><input  name="choice_var"  type="radio" id="radio_2"   >2</label>
 
    
-<label id=''  style="position: absolute; left: 158px; top: 340px;  "><input  name="choice_var"  type="radio" id="radio_ab75b"   >too many to m?count</label>
+<label id=''  style="position: absolute; left: 158px; top: 340px;  "><input  name="choice_var"  type="radio" id="radio_4"   >too many to m?count</label>
 
    
-<label id=''  style="position: absolute; left: 34px; top: 290px;  "><input  name="choice_var"  type="radio" id="radio_f99b0"   >1</label>
+<label id=''  style="position: absolute; left: 34px; top: 290px;  "><input  name="choice_var"  type="radio" id="radio_1"   >1</label>
 
    
 <button id='button_sasha'  style="position: absolute; left: 380px; top: 230px; width: 100px; height: 50px; ">Continue</button>
