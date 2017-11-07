@@ -62,7 +62,7 @@ var init = function() {
     
     	    $('#radio_4').parent().contents().last()[0].textContent=data.answerD;
     
-    	    $('# id of the video').attr('src',data.videolink);
+    	    $('#iframe_1').attr('src',data.videolink);
     	
         	    $("#span_1").text(data.question);
     
