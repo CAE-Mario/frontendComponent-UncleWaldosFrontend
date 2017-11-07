@@ -46,6 +46,7 @@ var init = function() {
 
   $('#button_sasha').on('click', function() {
     //start parameter initiation
+    window.counter +=1;
 
     //end parameter initiation
     loadQuiz();
