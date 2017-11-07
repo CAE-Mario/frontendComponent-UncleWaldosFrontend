@@ -73,5 +73,6 @@ var loadQuiz = function(){
 
 
 $(document).ready(function() {
-  init();
+  init(); 
+
 });
