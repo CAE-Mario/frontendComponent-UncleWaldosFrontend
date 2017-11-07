@@ -34,7 +34,7 @@ var client;
 
 var init = function() { 
     window.counter = 0; 
-    nextQuiz();
+    loadQuiz();
   
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
