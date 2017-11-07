@@ -64,7 +64,7 @@ var init = function() {
     
     	    $('# id of the video').attr('src',data.videolink);
     	
-        	    $("# id of the question").text(data.question);
+        	    $("#span_1").text(data.question);
     
         }else{
      
