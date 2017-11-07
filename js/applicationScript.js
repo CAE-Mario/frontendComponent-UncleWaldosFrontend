@@ -64,10 +64,6 @@ var loadQuiz = function(){
   client.sendRequest("GET", videoquiz/getQuiz, "", "", {}, false,
   function(data, type) {
      
- client.sendRequest("GET", "videoquiz/getQuiz/" + window.counter, "", "", {}, false,
-     
-     function(data, type) {
-    
         if(Object.keys(data).length > 0){
     
     	    $('#radio_1').parent().contents().last()[0].textContent=data.answerA;
