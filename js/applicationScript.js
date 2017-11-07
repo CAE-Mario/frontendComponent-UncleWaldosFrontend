@@ -98,7 +98,9 @@ var loadQuiz = function(){
 
   client.sendRequest("GET", videoquiz/getQuiz, "", "", {}, false,
   function(data, type) {
-    console.log(data);
+     
+ 
+console.log(data);
   },
   function(error) {
     console.log(error);
