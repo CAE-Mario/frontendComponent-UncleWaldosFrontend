@@ -56,9 +56,9 @@ var init = function() {
     
     	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
     
-    	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
+    	    $('#radio_2').parent().contents().last()[0].textContent=data.answerB;
     
-    	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
+    	    $('#radio_3').parent().contents().last()[0].textContent=data.answerC;
     
     	    $('#radio_4').parent().contents().last()[0].textContent=data.answerD;
     
