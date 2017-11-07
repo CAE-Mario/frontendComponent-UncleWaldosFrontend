@@ -68,7 +68,7 @@ var init = function() {
     
         }else{
      
-           $("# id of the question").text("Quiz completed thank you!");
+           $("#span_1").text("Quiz completed thank you!");
      
            $('label').hide();
     
