@@ -47,7 +47,7 @@ var init = function() {
   $('#button_sasha').on('click', function() {
     //start parameter initiation
     window.counter +=1; 
-
+    http://cloud10.dbis.rwth-aachen.de:8088/frontendComponent-UncleWaldosFrontend/widget.xml
     client.sendRequest("GET", "videoquiz/getQuiz/" + window.counter, "", "", {}, false,
      
      function(data, type) {
