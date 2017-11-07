@@ -61,7 +61,7 @@ var loadQuiz = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", videoquiz/getQuiz, "", "", {}, false,
+  client.sendRequest("GET", "", "", "", {}, false,
   function(data, type) {
      
         if(Object.keys(data).length > 0){
