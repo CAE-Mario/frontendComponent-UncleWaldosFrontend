@@ -60,7 +60,7 @@ var init = function() {
     
     	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
     
-    	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
+    	    $('#radio_4').parent().contents().last()[0].textContent=data.answerD;
     
     	    $('# id of the video').attr('src',data.videolink);
     	
