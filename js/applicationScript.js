@@ -46,43 +46,42 @@ var init = function() {
 
   $('#button_sasha').on('click', function() {
     //start parameter initiation
-    window.counter +=1;
+    window.counter +=1; 
+
+    client.sendRequest("GET", "videoquiz/getQuiz/" + window.counter, "", "", {}, false,
      
-
-client.sendRequest("GET", "videoquiz/getQuiz/" + window.counter, "", "", {}, false,
- 
- function(data, type) {
-
-    if(Object.keys(data).length > 0){
-
-	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
-
-	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
-
-	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
-
-	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
-
-	    $('# id of the video').attr('src',data.videolink);
-	
-    	    $("# id of the question").text(data.question);
-
-    }else{
- 
-       $("# id of the question").text("Quiz completed thank you!");
- 
-       $('label').hide();
-
-        $('button').hide();
- 
-   }  
-  
-},
-  function(error) {
-
-    console.log(error);
-  
-});
+     function(data, type) {
+    
+        if(Object.keys(data).length > 0){
+    
+    	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
+    
+    	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
+    
+    	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
+    
+    	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
+    
+    	    $('# id of the video').attr('src',data.videolink);
+    	
+        	    $("# id of the question").text(data.question);
+    
+        }else{
+     
+           $("# id of the question").text("Quiz completed thank you!");
+     
+           $('label').hide();
+    
+            $('button').hide();
+     
+       }  
+      
+    },
+      function(error) {
+    
+        console.log(error);
+      
+    });
     //end parameter initiation
     loadQuiz();
   })
