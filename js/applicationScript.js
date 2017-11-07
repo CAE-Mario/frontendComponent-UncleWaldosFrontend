@@ -87,13 +87,6 @@ var loadQuiz = function(){
             $('button').hide();
      
        }  
-      
-    },
-      function(error) {
-    
-        console.log(error);
-      
-    });
 console.log(data);
   },
   function(error) {
