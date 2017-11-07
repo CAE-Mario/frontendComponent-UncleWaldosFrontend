@@ -47,41 +47,6 @@ var init = function() {
   $('#button_sasha').on('click', function() {
     //start parameter initiation
     window.counter +=1; 
-    
-    client.sendRequest("GET", "videoquiz/getQuiz/" + window.counter, "", "", {}, false,
-     
-     function(data, type) {
-    
-        if(Object.keys(data).length > 0){
-    
-    	    $('#radio_1').parent().contents().last()[0].textContent=data.answerA;
-    
-    	    $('#radio_2').parent().contents().last()[0].textContent=data.answerB;
-    
-    	    $('#radio_3').parent().contents().last()[0].textContent=data.answerC;
-    
-    	    $('#radio_4').parent().contents().last()[0].textContent=data.answerD;
-    
-    	    $('#iframe_1').attr('src',data.videolink);
-    	
-        	    $("#span_1").text(data.question);
-    
-        }else{
-     
-           $("#span_1").text("Quiz completed thank you!");
-     
-           $('label').hide();
-    
-            $('button').hide();
-     
-       }  
-      
-    },
-      function(error) {
-    
-        console.log(error);
-      
-    });
     //end parameter initiation
     loadQuiz();
   })
