@@ -60,8 +60,8 @@ var loadQuiz = function(){
 //start variable declaration
 
 //end variable declaration
-
-  client.sendRequest("GET", "videoquiz/getQuiz/"+window.counter, "", "", {}, false,
+    
+  client.sendRequest("GET", "videoquiz/getQuiz/"+ window.counter, "", "", {}, false,
   function(data, type) {
      
         if(Object.keys(data).length > 0){
