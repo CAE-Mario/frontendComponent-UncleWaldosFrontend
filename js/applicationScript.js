@@ -59,7 +59,7 @@ var loadQuiz = function(){
 //start variable declaration
 
 //end variable declaration
-  client = new Las2peerWidgetLibrary("http://cloud10.dbis.rwth-aachen.de:8086/videoquiz", iwcCallback);
+
   client.sendRequest("GET", "videoquiz/getQuiz/"+ window.counter, "", "", {}, false,
   function(data, type) {
      
