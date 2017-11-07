@@ -54,7 +54,7 @@ var init = function() {
     
         if(Object.keys(data).length > 0){
     
-    	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
+    	    $('#radio_1').parent().contents().last()[0].textContent=data.answerA;
     
     	    $('#radio_2').parent().contents().last()[0].textContent=data.answerB;
     
